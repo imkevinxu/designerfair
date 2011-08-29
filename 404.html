@@ -1,0 +1,56 @@
+<!DOCTYPE HMTL>
+<html>
+<head>
+	<title>Page Not Found</title>
+	<style>
+		header {
+			width:100%;
+			padding:8px 0;
+			background-color:#FF6726;
+			margin-bottom:15px;
+			border-bottom:3px solid black;
+		}
+		body {
+			margin: 0 auto;
+			text-align: center;
+			background-image:url("img/bg.png");
+			font: 20px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		}
+		strong {
+			letter-spacing: 2px;
+			font-size: 25px;
+			cursor: pointer;
+		}
+		a { 
+			color: rgb(36, 109, 56);
+			text-decoration:none;
+		}
+		a:hover { color: rgb(96, 73, 141); }
+	</style>
+		
+	<!-- RAPTOR ATTACK-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<script>!window.jQuery && document.write('<script src="raptor/jquery-1.4.3.min.js">\x3C/script>')</script>
+	<script src="raptor/jquery.raptorize.1.0.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.raptor').raptorize();
+			$('body').raptorize({
+				"enterOn" : "timer",
+				'delayTime' : 1000
+			});
+		});
+	</script>
+</head>
+
+<header>
+	<strong class="raptor">RAPTOR ATTACK! ZOMGBBQ!#@!%$!!11</strong>
+</header>
+<body>
+	<img src="img/404.png" width="480px">
+	<div>
+		<p>Sorry, but the page you were trying to view does not exist.</p>
+		<p>Tumbeast created by Matthew Inman of <a href="http://theoatmeal.com/">TheOatmeal.com</a></p>
+	</div>
+</body>
+</html>
